@@ -1,0 +1,89 @@
+
+body {
+  font-family: fantasy;
+  font: 14px;
+  color: aqua;
+  background: rgb(0, 0, 0);
+  /*margin: 100px; */
+}
+
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+  margin-top: 100px;
+  padding-left: 100px;
+}
+
+.game-board {
+  border-left: 100px;
+  border-right: 100px;
+
+}
+
+.status {
+  margin-bottom: 100px;
+}
+
+
+.square {
+  opacity: .9;
+  margin: 3px;
+  background: rgb(19, 19, 18);
+  border: 1px solid rgb(211, 193, 34);
+  float: left;
+  font-size:70px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+  border-radius: 20px;
+  
+}
+
+.square:focus {
+  outline: none;
+ 
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  font-size: medium;
+    margin-bottom: 50px;
+    color: white;
+    font-family: fantasy;
+    font-size: 50px;
+    border: 8px solid rgb(90, 14, 77);
+    background-color: rgb(24, 25, 26);
+    margin: auto;
+    padding: auto;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 8px rgb(223, 68, 215);
+
+}
+
+
+.info {
+  margin-top: 30px;
+  margin-left: 20px;
+}
