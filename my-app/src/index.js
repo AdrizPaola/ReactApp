@@ -101,7 +101,7 @@ class Game extends React.Component {
       let status;
       let title;
       if(winner){
-          title = '--- Tic Tac Toe  ---';
+          title = '--- Tic Tac Toe  --- Adriz';
           status = 'Winner: ' + winner;
       } else {
           //To add a title
