@@ -92,19 +92,18 @@ class Game extends React.Component {
           'Go to game start';
 
           return(
-              <li key={move}>
+              <lo key={move}>
                   <button onClick={() => this.jumpTo(move)}>{desc}</button>
-              </li>
+              </lo>
           );
       });
       
       let status;
       let title;
       if(winner){
-          title = '--- Tic Tac Toe  --- Adriz';
+          title = '--- Tic Tac Toe  ---';
           status = 'Winner: ' + winner;
       } else {
-          //To add a title
           title = '---  Tic Tac Toe  ---';
           status = 'Next Player: ' + (this.state.xIsNext ? 'X' : 'O');
       }
