@@ -6,7 +6,6 @@ body {
   font-size: medium;
   margin-bottom: 50px;
   color: white;
-  font-family: fantasy;
   font-size: 30px;
   margin: auto;
   padding: auto;
@@ -68,9 +67,17 @@ ol, ul {
   padding: 0;
   text-align: center;
   width: 100px;
-  border-radius: 20px;
+  border-radius: 5px;
   
 }
+
+.button {
+    background: white;
+    font-size: 15px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
 
 .square:focus {
   outline: none;
